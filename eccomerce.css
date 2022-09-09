@@ -1,0 +1,162 @@
+ul {
+    list-style-type:none;
+    margin:0%;
+    padding:0%;
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    font-size: large;
+    color:wheat;
+    text-align:center;
+    padding: 14px;
+    text-decoration:none;
+  }
+  
+  li a:hover {
+    background-color:sandybrown;
+  }
+
+  body{
+      border: 10px solid;
+    padding: 20px;
+    
+  }
+  
+
+  img{
+           border: 10px solid ;
+            padding: 5px;
+            margin: 20px; 
+  }
+
+  h1{
+      font-size:70px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-style: italic;
+      
+  }
+
+  h3{
+      text-align: center;
+      font-style: oblique;
+      font-size:x-large;
+  }
+
+p{
+    text-align: center;
+    font-size:larger;
+}
+
+tr{
+    text-align: center;
+    font-size: medium;
+}
+
+.register {
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    background:blue;
+    color: white;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 50px;
+
+  }
+  .register:hover {
+    background-color:black;
+  }
+  
+  
+
+.subtitle{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-stretch: expanded;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.index{
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:aquamarine;
+    text-align:left;
+}
+
+.background{
+    background-image: url('https://i.pinimg.com/564x/b8/d7/79/b8d779e43a8c23efbc3b7786faa8d95b.jpg') ;
+    height: 600px;
+
+}
+
+.contentsubheading{
+    font-size: 40px;
+}
+
+.icons{
+    align-content: center;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.icons-cart{
+    align-self: center;
+    color: white;
+}
+.icons-twitter{
+    background:blue;
+    color: white;
+}
+.icons-paypal{
+    background:blue;
+    color: white;
+}
+.icons-facebook{
+    background:steelblue;
+    color: white;
+}
+.icons-instagram{
+    background:crimson;
+    color: white;
+}
+.icons-bolt{
+    background:green;
+    color: white;
+}
+.icons-whatsapp{
+    background:green;
+    color: white;
+}
+.testimonials{
+    
+    padding: 5px;
+     
+}
+.radio{
+    font-size: 20px;
+    text-align: center;
+    text-combine-upright:calc();
+}
+
+body{
+    background-color:coral;
+}
+  
+  
+
+
+

@@ -1,0 +1,189 @@
+table{
+    margin: 1 auto;
+    font-size:large;
+    border: 5px solid;
+    float: centre;
+border-top: 0em;
+}
+
+h3{
+    text-align: center;
+    color: aqua;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+td{
+    background-color:bisque;
+    border: 1px solid;
+    text-align: center;
+}
+th{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    border: 3px solid;
+}
+
+td{
+    font-weight: lighter;
+}
+.btn{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    padding: 0.2rem 0.2rem;
+    background-color:cornflowerblue;
+    color: black;
+}
+.btn:hover{
+    background-color:black;
+}
+
+body{
+    background-color: coral;
+}
+
+
+
+
+.index{
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:aquamarine;
+    text-align:left;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    
+box-sizing: border-box;
+}
+
+.sidetop{
+    display: grid;
+    width: 96%;
+    margin:0 auto;
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto 23rem;
+}
+aside{
+    height: 100vh;
+}
+aside .top{
+    background-color:coral;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+aside .sidebar{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    position: relative;
+    top: 3rem;
+}
+aside .sidebar a{
+display: flex;
+color:cornflowerblue;
+margin-left: 2rem;
+gap: 1rem;
+align-items: center;
+position: relative;
+height: 3.7rem;
+transition: all 300ms ease;
+}
+aside .sidebar a span{
+    font-size: 1.6rem;
+    transform: all 300ms ease;
+}
+aside .sidebar a:last-child{
+    position: absolute;
+    bottom: 10rem;
+    width: 100%;
+}
+aside .sidebar a.active{
+    background-color:cornflowerblue;
+    color:black;
+    margin-left: 0;
+}
+aside .sidebar a.active::before{
+    content: "";
+    width: 6px;
+    height: 100%;
+    background-color: darkblue;
+}
+aside .sidebar a.active span{
+    color: orangered;
+    margin-left: calc(1rem- 3px);
+}
+aside .sidebar a:hover{
+    color: cornflowerblue;
+}
+aside .sidebar a:hover span{
+ margin-left: 1rem;
+}
+html{
+    font-size: 14px;
+}
+h2{
+    font-size: 1.4rem;
+}
+h3{
+    font-size: 0.87rem;
+}
+h4{
+    font-size: 0.8rem;
+}
+h5{
+    font-size: 0.77rem;
+}
+small{
+    font-size: 0.76rem;
+}
+
+.profilephoto{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.textmuted{
+    font-style: italic;
+    color: aqua;
+}
+
+p{
+    color: black;
+}
+b{
+    color: cornflowerblue;
+}
+.primary{
+    color: azure;
+}
+.icons{
+    align-content: center;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.icons-cart{
+    align-self: center;
+    color: white;
+}

@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,100;1,200;1,300;1,400;1,500;1,800;1,900&display=swap');
+body{
+    background-color:coral;
+    width: 100vw;
+    height: 150vh;
+    font-family: poppins,sans-serif;
+    font-size: 0.88rem;
+    user-select: none;
+    overflow-x: hidden;
+    border: 5px solid;
+    padding: 20px;
+}
+ul {
+    list-style-type:none;
+    margin:0%;
+    padding:0%;
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    font-size: medium;
+    color:wheat;
+    text-align:center;
+    padding: 14px;
+    text-decoration:none;
+  }
+  
+  li a:hover {
+    background-color:sandybrown;
+  }
+
+h1{
+    font-size:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color:black;
+    
+    
+}
+
+.index{
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:aquamarine;
+    text-align:left;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    
+box-sizing: border-box;
+}
+
+.sidetop{
+    display: grid;
+    width: 96%;
+    margin:0 auto;
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto 23rem;
+}
+aside{
+    height: 100vh;
+}
+aside .top{
+    background-color:coral;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+aside .sidebar{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    position: relative;
+    top: 3rem;
+}
+aside .sidebar a{
+display: flex;
+color:cornflowerblue;
+margin-left: 2rem;
+gap: 1rem;
+align-items: center;
+position: relative;
+height: 3.7rem;
+transition: all 300ms ease;
+}
+aside .sidebar a span{
+    font-size: 1.6rem;
+    transform: all 300ms ease;
+}
+aside .sidebar a:last-child{
+    position: absolute;
+    bottom: 10rem;
+    width: 100%;
+}
+aside .sidebar a.active{
+    background-color:cornflowerblue;
+    color:black;
+    margin-left: 0;
+}
+aside .sidebar a.active::before{
+    content: "";
+    width: 6px;
+    height: 100%;
+    background-color: darkblue;
+}
+aside .sidebar a.active span{
+    color: orangered;
+    margin-left: calc(1rem- 3px);
+}
+aside .sidebar a:hover{
+    color: cornflowerblue;
+}
+aside .sidebar a:hover span{
+ margin-left: 1rem;
+}
+html{
+    font-size: 14px;
+}
+h2{
+    font-size: 1.4rem;
+}
+h3{
+    font-size: 0.87rem;
+}
+h4{
+    font-size: 0.8rem;
+}
+h5{
+    font-size: 0.77rem;
+}
+small{
+    font-size: 0.76rem;
+}
+
+.profilephoto{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.textmuted{
+    font-style: italic;
+    color: aqua;
+}
+
+p{
+    color: black;
+}
+b{
+    color: cornflowerblue;
+}
+.primary{
+    color: azure;
+}
+.icons{
+    align-content: center;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.icons-cart{
+    align-self: center;
+    color: white;
+}
+
+/* main*/
+main{
+    margin-top: 1.4rem;
+}
+
+main .date{
+    display: inline-block;
+    background:cornflowerblue;
+    border: radius 2px;;
+    margin-top: 2rem;
+    padding: 0.5rem 1.6rem;
+}
+
+main .date input[type="date"]{
+    background: transparent;
+    color:white;
+}
+
+main .insights{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+main .insights > div{
+    background:whitesmoke;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    box-shadow:inset;
+    transition: all 300ms ease;
+}
+
+main .insights > div:hover{
+    box-shadow:inset;
+}
+
+main .insights > div span{
+    background-color: cornflowerblue;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+}
+
+main .insights >div.expenses span{
+    background-color: cornflowerblue;
+}
+
+main .insights > div.income span{
+    background-color: cornflowerblue;
+}
+
+main .insights > div .middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .insights h3{
+    margin: 1rem 0 0.6rem;
+    font-size: 1rem;
+}
+
+main .insights .progress{
+    position: relative;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+}
+
+main .insights svg{
+    width: 7rem;
+    height: 7rem;
+}
+
+main .insights svg circle{
+    fill: none;
+    stroke:cornflowerblue;
+    stroke-width: 14;
+    stroke-linecap: round;
+    transform: translate(5px,5px);
+    stroke-dasharray: 110;
+    stroke-dashoffset: 92;
+}
+
+main .insights .sales svg circle{
+    stroke-dashoffset: -30;
+    stroke-dasharray: 200;
+}
+
+main .insights .expenses svg circle{
+    stroke-dashoffset: 20;
+    stroke-dasharray: 80;
+}
+
+main .insights .income svg circle{
+    stroke-dashoffset: 35;
+    stroke-dasharray: 110;
+}
+
+main .insights .progress .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    margin: 1 auto;
+    font-size:large;
+    border: 5px solid;
+    float: centre;
+border-top: 0em;
+}
+
+h3{
+    text-align: center;
+    color: cornflowerblue;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+td{
+    background-color:bisque;
+    border: 1px solid;
+    text-align: center;
+}
+th{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    border: 3px solid;
+}
+
+td{
+    font-weight: lighter;
+}
+.btn{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    padding: 0.2rem 0.2rem;
+    background-color:cornflowerblue;
+    color: black;
+}
+.btn:hover{
+    background-color:black;
+}
+
+body{
+    background-color: coral;
+}
+
+
+
+
+.index{
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:whitesmoke;
+    text-align:left;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    
+box-sizing: border-box;
+}
+
+.sidetop{
+    display: grid;
+    width: 96%;
+    margin:0 auto;
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto 23rem;
+}
+aside{
+    height: 100vh;
+}
+aside .top{
+    background-color:coral;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+aside .sidebar{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    position: relative;
+    top: 3rem;
+}
+aside .sidebar a{
+display: flex;
+color:cornflowerblue;
+margin-left: 2rem;
+gap: 1rem;
+align-items: center;
+position: relative;
+height: 3.7rem;
+transition: all 300ms ease;
+}
+aside .sidebar a span{
+    font-size: 1.6rem;
+    transform: all 300ms ease;
+}
+aside .sidebar a:last-child{
+    position: absolute;
+    bottom: 10rem;
+    width: 100%;
+}
+aside .sidebar a.active{
+    background-color:cornflowerblue;
+    color:black;
+    margin-left: 0;
+}
+aside .sidebar a.active::before{
+    content: "";
+    width: 6px;
+    height: 100%;
+    background-color: cornflowerblue;
+}
+aside .sidebar a.active span{
+    color: orangered;
+    margin-left: calc(1rem- 3px);
+}
+aside .sidebar a:hover{
+    color: cornflowerblue;
+}
+aside .sidebar a:hover span{
+ margin-left: 1rem;
+}
+html{
+    font-size: 14px;
+}
+h2{
+    font-size: 1.4rem;
+}
+h3{
+    font-size: 0.87rem;
+}
+h4{
+    font-size: 0.8rem;
+}
+h5{
+    font-size: 0.77rem;
+}
+small{
+    font-size: 0.76rem;
+}
+
+.profilephoto{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.textmuted{
+    font-style: italic;
+    color: cornflowerblue;
+}
+
+p{
+    color: black;
+}
+b{
+    color: cornflowerblue;
+}
+.primary{
+    color: whitesmoke;
+}
+.icons{
+    align-content: center;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.icons-cart{
+    align-self: center;
+    color: white;
+}

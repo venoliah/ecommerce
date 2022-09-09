@@ -1,0 +1,22 @@
+p{
+    color: cyan;
+}
+h1{
+    color: blueviolet;
+}
+body{
+    background-color: chocolate;
+}
+body h1 +ul.special {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+
+}
+.fenono{
+    color: crimson;
+    font-size: x-large;
+}
+#youknowit{
+    color: chartreuse;
+}

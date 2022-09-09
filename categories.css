@@ -1,0 +1,81 @@
+
+.container{
+    max-width: 1200px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+.index{
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:aquamarine;
+    text-align:left;
+}
+
+.admin-form{
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color:coral;
+}
+.admin-form form h3{
+text-transform: uppercase;
+color: black;
+margin-bottom: 1rem;
+text-align: center;
+font-size: 2.5rem;
+}
+.admin-form form .box{
+    width: 100%;
+    border-radius: .5rem;
+    padding: 1.2rem 1.5rem;
+    font-size: 1.7rem;
+    margin: 1rem 0;
+    text-transform: none;
+}
+h1{
+    font-size:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color:cornflowerblue;
+     
+}
+.icons{
+    align-content: center;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    
+}
+.icons-cart{
+    align-self: center;
+    color: white;
+}
+body{
+    background-color:whitesmoke;
+    width: 100vw;
+    height: 180vh;
+    user-select: none;
+    overflow-x: hidden;
+    border: 30px solid;
+    padding: 20px;
+    background-color: coral;
+}
+.btn{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    background-color: black;
+    color: beige;
+}
+.btn:hover{
+    background-color:cornflowerblue;
+}

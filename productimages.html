@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Items of choice</title>
+        <link rel="stylesheet" href="categories.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+
+    </head>
+    <body>
+       
+        <ul>
+                
+            <li><a href="#About" target="_blank">About</a></li>
+            <li><a href="#Help" target="_blank">Help</a></li>
+            <a href="#" class="icons icons-cart"><ion-icon name="cart-outline"></ion-icon></a> 
+           
+            <h1 ><i>Beu- th- ful </i><br><span class="index"><dd >thrift- shop</dd></span></h1>
+
+
+        </ul>
+        <div class="container">
+            <div class="admin-form">
+            <form action="categoryconnect.php" method="post">
+                    <h3>Add a new product</h3>
+                    <input type="text" placeholder="Enter the image id number" name="productimages_id" class="box">
+                    <input type="file" accept="image/png,image/jpeg,image/jpg" name="product_image" class="box">
+                    <label for="created_at">created time</label>
+                    <input type="datetime-local" name="created_at" id="created_at" value="" step="1"><br><br><br>
+                    <label for="updated_at">update time</label>
+                    <input type="datetime-local" name="updated_at" id="updated_at" value="" step="1">
+                    <input type="text" placeholder="Enter the id number" name="product_id" class="box">
+                    <input type="text" placeholder="Enter the name of the admin " name="added_by" class="box">
+                </form>
+            </div>
+        </div>
+
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

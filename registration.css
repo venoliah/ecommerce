@@ -1,0 +1,18 @@
+button:read-only,textarea:read-only{
+
+}
+ .submit:hover,submit:focus,textarea:hover,textarea:focus{
+     background-color: blue;
+ }
+ p::first-letter{
+     font-size: 200%;
+ }
+
+ div{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: chartreuse;
+ }
+span{
+    font-family: 'Courier New', Courier, monospace;
+    color: crimson;
+}
